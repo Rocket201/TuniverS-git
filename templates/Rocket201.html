@@ -6,17 +6,28 @@
     <title>Document</title>
     <link href="/img/Rocket201/logo.jpg">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.2/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        @keyframes moveUp {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0); }
+        }
+    
+        .animate-moveUp {
+            animation: moveUp 2s infinite;
+        }
+    </style>
 </head>
 <body class="bg-gray-200 text-gray-800">
+        <a id="top"></a>
     <header class="bg-black h-12 flex items-center justify-between px-4">
         <a id="logo" class="logo" href="https://www.adhamdannaway.com/">
             <img src="/img/Rocket201/logo.jpg" alt="Logo" class="h-8">
         </a>
         <button class="text-white">☰</button>
     </header>
-    <div>
-
-    <img id="face-img" class="face-img" src="https://www.adhamdannaway.com/wp-content/themes/dannaway/images/adham-dannaway-designer-coder.jpg" alt="Adham Dannaway UI designer" style="opacity: 1;">
+    <div class="flex justify-center">
+        <img id="face-img" class="face-img shadow-md w-1/2" src="https://www.adhamdannaway.com/wp-content/themes/dannaway/images/adham-dannaway-designer-coder.jpg" alt="Adham Dannaway UI designer" style="opacity: 1;">
     </div>
     <div class="header-center flex flex-col items-center">
         <h1 class="text-center">SOME OF MY LASTEST WORKS</h1>
@@ -41,7 +52,10 @@
         </div>
     </div>
     
-    <footer class="bg-gray-800 text-white py-4">
+    <footer class="bg-gray-800 text-white py-4 relative mt-8">
+        <a href="#top" class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-16 h-16 bg-white rounded-full shadow hover:bg-gray-200 transition duration-200 flex items-center justify-center text-black animate-moveUp">
+            🡅
+        </a>
         <div class="footer-container mx-auto px-4">
             <p>© 2024 Adham Dannaway</p>
         </div>
