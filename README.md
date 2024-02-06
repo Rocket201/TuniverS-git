@@ -13,3 +13,9 @@ Se recomienda crear una organización que sea la propietaria del repositorio pri
 3. Click en Organizaciones (Menú izquierdo)
 4. Click en Nueva organización
 5. Elegir plan y llenar datos
+
+
+git remote
+git pull (nombre ) dev
+git add -A
+git commit -m ""
