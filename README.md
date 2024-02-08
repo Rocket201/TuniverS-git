@@ -35,7 +35,7 @@ Agregamos remotos
 
 `git remote add NOMBRE_ORGANIZACION URL`
 
-`git remote add TuniversS-O URL`
+`git remote add TuniversS-O https://github.com/DiegusNueva/TuniverS-git-Diego.git`
 
 `git remote remove NOMBRE_ORGANIZACION`
 
