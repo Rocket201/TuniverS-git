@@ -25,3 +25,17 @@ git commit -m ""
 
 Para crear un fork debes iniciar sesión en GitHub y luego ingresar en la landing page del proyecto del que quieras sacar tu Fork.
 >>>>>>> 6a84cbdc874f909278bfbc7b1e1676373fcc867d
+
+## Como trabaar con 2 o mas remotos
+
+Listar los remotos 
+`git remote -v`
+
+Agregamos remotos
+
+`git remote add NOMBRE_ORGANIZACION URL`
+
+`git remote add TuniversS-O URL`
+
+`git remote remove NOMBRE_ORGANIZACION`
+
